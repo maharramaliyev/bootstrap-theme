@@ -1,0 +1,535 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://gentium.pixerex.com/wp/xmlrpc.php">
+
+    <title>Gentium – Gentium WordPress Theme</title>
+    <link rel="alternate" type="application/rss+xml" title="Gentium » Feed" href="http://gentium.pixerex.com/wp/feed/">
+    <link rel="alternate" type="application/rss+xml" title="Gentium » Comments Feed" href="http://gentium.pixerex.com/wp/comments/feed/">
+    <link rel="stylesheet" id="wp-block-library-css" href="http://gentium.pixerex.com/wp/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="contact-form-7-css" href="http://gentium.pixerex.com/wp/wp-content/plugins/contact-form-7/includes/css/styles.css" type="text/css" media="all">
+    <link rel="stylesheet" id="font-awesome-css" href="http://gentium.pixerex.com/wp/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="custom-fonts-css" href="http://gentium.pixerex.com/wp/wp-content/themes/gentium-demo/assets/css/fonts.css" type="text/css" media="all">
+    <link rel="stylesheet" id="uikit-css" href="http://gentium.pixerex.com/wp/wp-content/plugins/pixerex-elements/assets/css/uikit.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="pixe-main-style-css" href="http://gentium.pixerex.com/wp/wp-content/themes/gentium-demo/style.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-icons-css" href="http://gentium.pixerex.com/wp/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-animations-css" href="http://gentium.pixerex.com/wp/wp-content/plugins/elementor/assets/lib/animations/animations.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-frontend-css" href="http://gentium.pixerex.com/wp/wp-content/uploads/elementor/css/custom-frontend.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="pr-icons-css" href="http://gentium.pixerex.com/wp/wp-content/plugins/pixerex-elements/assets/css/iconfont.css" type="text/css" media="all">
+    <link rel="stylesheet" id="pr-style-css" href="http://gentium.pixerex.com/wp/wp-content/plugins/pixerex-elements/assets/css/pr-style.css" type="text/css" media="all">
+    <link rel="stylesheet" id="slick-css" href="http://gentium.pixerex.com/wp/wp-content/plugins/pixerex-elements/assets/css/slick.css" type="text/css" media="all">
+    <link rel="stylesheet" id="social-share-style-css" href="http://gentium.pixerex.com/wp/wp-content/plugins/pixerex-elements/assets/css/social-share.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-global-css" href="http://gentium.pixerex.com/wp/wp-content/uploads/elementor/css/global.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-post-23-css" href="http://gentium.pixerex.com/wp/wp-content/uploads/elementor/css/post-23.css" type="text/css" media="all">
+    <link rel="stylesheet" id="kirki-styles-gentium-css" href="http://gentium.pixerex.com/wp/wp-content/plugins/pixerex-core/plugins/customizer/assets/css/kirki-styles.css" type="text/css" media="all">
+    <style id="kirki-styles-gentium-inline-css" type="text/css">
+        .breadcrumbs a, .comment-list .reply a:hover, .custom-pagination .page-numbers.current, .nav-links a:hover, .single-post .post-enty-meta .tags a:hover, .single-post-content .post-enty-meta strong, a.loadMore:hover, a.loadMore:hover .text, h3.entry-title a:hover {
+            color: #e9204f;
+        }
+
+        #respond #submit, #respond input#submit:hover, .custom-pagination .page-numbers.current, .page-numbers:hover, a.loadMore, a.loadMore:hover, h5, input[type="reset"], input[type="submit"] {
+            border-color: #e9204f;
+        }
+
+            #respond #submit:hover, .pixe-split-pages > span, body #loader .loading .progress .bar-loading, input[type="reset"]:hover, input[type="submit"]:hover {
+                background-color: #e9204f;
+            }
+
+        .spinner:after {
+            border-top-color: #e9204f;
+        }
+
+        body {
+            background-color: #ffffff;
+        }
+
+        .post-enty-meta .tags a, body {
+            color: #747474;
+        }
+
+        #respond #submit, .comment-list .author a, .comment-list .reply a, .custom-pagination .page-numbers, .meta-share a, .nav-links a, a.loadMore .text, blockquote > p, h1, h1.site-title a, h2, h3, h3.entry-title, h3.entry-title a, h4, h5, input[type="reset"], input[type="submit"], strong {
+            color: #101010;
+        }
+
+        a {
+            color: #e9204f;
+        }
+
+            a:hover {
+                color: #e9204f;
+            }
+
+        .ste-site-branding, .header-style-1 .branding {
+            max-width: 120px;
+        }
+
+        .mobile-logo, .page-mobile-menu-logo > a {
+            max-width: 120px;
+        }
+
+        #mobile-header {
+            background-color: #000000;
+        }
+
+            #mobile-header .toggle-icon i, .mobile-logo h1.site-title a {
+                color: #ffffff;
+            }
+
+        .uk-offcanvas-bar {
+            background-color: #000000;
+        }
+
+        .pr__mobile__nav .menu ul li a, .pr__mobile__nav .ul-menu li.menu-item-has-children > a:after, button.uk-offcanvas-close.uk-close.uk-icon {
+            color: #ffffff;
+        }
+
+            .pr__mobile__nav .menu ul li a:focus, .pr__mobile__nav .menu ul li a:hover {
+                color: #e9204f;
+            }
+
+        .section-title.thumbnail-bg::before {
+            background-color: rgba(0,0,0,0.9);
+        }
+
+        .section-title.thumbnail-bg {
+            padding-top: 200px;
+            padding-bottom: 70px;
+        }
+
+        .section-title .entry-title {
+            color: #ffffff;
+            margin-bottom: 26px;
+            font-family: "Avant Grade", sans-serif;
+            font-size: 42px;
+            font-weight: 700;
+            letter-spacing: 0px;
+            line-height: 47px;
+            text-transform: none;
+        }
+
+        hr.pr-page-title-hr {
+            background-color: #e9204f;
+            width: 70px;
+            height: 2px;
+            margin-bottom: 40px;
+        }
+
+        .breadcrumbs > span, .breadcrumbs > span > a {
+            color: #e9204f;
+        }
+
+        .breadcrumbs > span, span.breadcrumbs__separator:before {
+            color: #ffffff;
+        }
+
+        .breadcrumbs, .breadcrumbs a {
+            font-family: "Trade Gothic", sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: 0px;
+            line-height: 1.5;
+            text-transform: uppercase;
+        }
+
+        body, input, select, textarea {
+            font-family: "Trade Gothic", sans-serif;
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 1.5;
+        }
+
+        .read-more a, .single-post-heade-content .entry-title, blockquote > p, h1, h2, h3, h4, h5, h6 {
+            font-family: "Avant Grade", sans-serif;
+            font-weight: 700;
+            letter-spacing: -.04em;
+        }
+
+        h1 {
+            font-size: 42px;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+
+        h3 {
+            font-size: 22px;
+        }
+
+        h4 {
+            font-size: 18px;
+        }
+
+        h5 {
+            font-size: 14px;
+        }
+
+        h6 {
+            font-size: 12px;
+        }
+
+        .pixe-single-post-header-full:before {
+            background: rgba(0,0,0,0.9);
+        }
+
+        .pixe-single-post-header-full {
+            padding-top: 250px;
+            padding-bottom: 80px;
+        }
+
+        .single-post-heade-content .entry-title {
+            color: #ffffff;
+            font-size: 48px;
+        }
+
+        .single-post-heade-content .category, .single-post-heade-content .category a {
+            color: #ffffff;
+        }
+
+            .single-post-heade-content .category a {
+                font-size: 14px;
+            }
+    </style>
+    <link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Condensed%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;ver=5.2" type="text/css" media="all">
+    <script src="https://connect.facebook.net/signals/plugins/inferredEvents.js?v=2.8.47" async=""></script>
+    <script src="https://connect.facebook.net/signals/config/2347176695511713?v=2.8.47&amp;r=stable" async=""></script>
+    <script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script>
+    <script type="text/javascript" src="http://gentium.pixerex.com/wp/wp-includes/js/jquery/jquery.js"></script>
+    <script type="text/javascript" src="http://gentium.pixerex.com/wp/wp-includes/js/jquery/jquery-migrate.min.js"></script>
+    <link rel="https://api.w.org/" href="http://gentium.pixerex.com/wp/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://gentium.pixerex.com/wp/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://gentium.pixerex.com/wp/wp-includes/wlwmanifest.xml">
+    <meta name="generator" content="WordPress 5.2">
+    <link rel="canonical" href="http://gentium.pixerex.com/wp/">
+    <link rel="shortlink" href="http://gentium.pixerex.com/wp/">
+    <link rel="alternate" type="application/json+oembed" href="http://gentium.pixerex.com/wp/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fgentium.pixerex.com%2Fwp%2F">
+    <link rel="alternate" type="text/xml+oembed" href="http://gentium.pixerex.com/wp/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fgentium.pixerex.com%2Fwp%2F&amp;format=xml">
+    <style type="text/css">
+        font-face {
+            font-family: AvantGarde Bold,
+            /*src:*/ url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/AvantGarde-Bold.woff2) format('woff2'), url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/AvantGarde-Bold.woff) format('woff');
+        }
+
+        font-face {
+            font-family: AvantGarde Book,url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/AvantGarde-Book.woff2) format('woff2'), url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/AvantGarde-Book.woff) format('woff');
+        }
+
+        font-face {
+            font-family: AvantGarde Light,url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/AvantGarde-Light.woff2) format('woff2'), url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/AvantGarde-Light.woff) format('woff');
+        }
+
+        font-face {
+            font-family: AvantGarde Medium,url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/AvantGarde-Medium.woff2) format('woff2'), url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/AvantGarde-Medium.woff) format('woff');
+        }
+
+        font-face {
+            font-family: Tex Bold,url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/02/texgyreadventor-bold-webfont.woff2) format('woff2'), url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/02/texgyreadventor-bold-webfont.woff) format('woff');
+        }
+
+        font-face {
+            font-family: Tex Webfont,url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/02/texgyreadventor-regular-webfont.woff2) format('woff2'), url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/02/texgyreadventor-regular-webfont.woff) format('woff'), url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/02/texgyreadventor-regular-webfont.ttf) format('truetype');
+        }
+
+        font-face {
+            font-family: Trade Gothic,url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/tradegothic.woff2) format('woff2'), url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/tradegothic.woff) format('woff');
+        }
+
+        font-face {
+            font-family: Trade Gothic Bold,url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/tradegothic-bold.woff2) format('woff2'), url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/tradegothic-bold.woff) format('woff');
+        }
+
+        font-face {
+            font-family: Trade Gothic Light,url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/tradegothic-light.woff2) format('woff2'), url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/tradegothic-light.woff) format('woff');
+        }
+    </style>
+    <style type="text/css">
+        .recentcomments a {
+            display: inline !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+    </style>
+    <link rel="icon" href="http://gentium.pixerex.com/wp/wp-content/uploads/2019/02/apple-touch-icon-150x150.png" sizes="32x32">
+    <link rel="icon" href="http://gentium.pixerex.com/wp/wp-content/uploads/2019/02/apple-touch-icon.png" sizes="192x192">
+    <link rel="apple-touch-icon-precomposed" href="http://gentium.pixerex.com/wp/wp-content/uploads/2019/02/apple-touch-icon.png">
+    <meta name="msapplication-TileImage" content="http://gentium.pixerex.com/wp/wp-content/uploads/2019/02/apple-touch-icon.png">
+    <style type="text/css" id="wp-custom-css">
+        .pixe-single-post-header-full, .section-title.thumbnail-bg {
+            margin-top: -170px;
+        }
+
+        .page-id-326 header.site-header .pr-main-menu > .menu-item > a, .page-id-326 .elementor-widget-heading .elementor-heading-title > a,
+        .page-id-330 header.site-header .pr-main-menu > .menu-item > a, .page-id-330 .elementor-widget-heading .elementor-heading-title > a,
+        .page-id-326 #mobile-header .toggle-icon i, .page-id-326 .mobile-logo h1.site-title a,
+        .page-id-330 #mobile-header .toggle-icon i, .page-id-330 .mobile-logo h1.site-title a,
+        .page-id-330 .lang select,
+        .page-id-226 .lang select,
+        .page-id-330 .lang,
+        .page-id-226 .lang {
+            color: #101010 !important;
+        }
+
+        .page-id-326 .elementor-104 .elementor-element.elementor-element-3f9125c,
+        .page-id-330 .elementor-104 .elementor-element.elementor-element-3f9125c,
+        .page-id-326 #mobile-header,
+        .page-id-330 #mobile-header {
+            background-color: #fff !important;
+        }
+    </style>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2347176695511713');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=2347176695511713&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+
+<body class="home page-template page-template-template-one-page-builder page-template-template-one-page-builder-php page page-id-23 woocommerce-active elementor-default elementor-page elementor-page-23" data-elementor-device-mode="desktop" style="">
+
+    <div id="site-wrapper" class="site wide" style="top: 0px;">
+        <header id="masthead" class="site-header" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+            <div class="pixe_header_holder">
+
+                <div class="pixe_header_holder">
+                    <div data-elementor-type="post" data-elementor-id="37" class="elementor elementor-37 elementor-bc-flex-widget" data-elementor-settings="[]">
+                        <div class="elementor-inner">
+                            <div class="elementor-section-wrap">
+                                @Html.Partial("MenuBar")
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pixe_sticky_header_holder uk-sticky uk-active show_sticky uk-sticky-below uk-sticky-fixed" data-uk-sticky="top: 100vh; animation: uk-animation-slide-top; " style="position: fixed; top: 0px; width: 1349px;">
+                <div data-elementor-type="post" data-elementor-id="104" class="elementor elementor-104 elementor-bc-flex-widget" data-elementor-settings="[]">
+                    <div class="elementor-inner">
+                        <div class="elementor-section-wrap">
+                            <section class="elementor-element elementor-element-3f9125c elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="3f9125c" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-row">
+                                        <div class="elementor-element elementor-element-502273f elementor-column elementor-col-33 elementor-top-column" data-id="502273f" data-element_type="column">
+                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                <div class="elementor-widget-wrap">
+                                                    <div class="elementor-element elementor-element-523c7d3 elementor-widget elementor-widget-heading" data-id="523c7d3" data-element_type="widget" data-widget_type="heading.default">
+                                                        <div class="elementor-widget-container">
+                                                            <h2 class="elementor-heading-title elementor-size-default"><a href="http://gentium.pixerex.com/wp">Gentium.</a></h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-a2a0e5d elementor-column elementor-col-33 elementor-top-column" data-id="a2a0e5d" data-element_type="column">
+                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                <div class="elementor-widget-wrap">
+                                                    <div class="elementor-element elementor-element-6cc673d elementor-align-right elementor-widget elementor-widget-pr-nav" data-id="6cc673d" data-element_type="widget" data-widget_type="pr-nav.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="pr-primary-navigation pr_nav_anime_br">
+                                                                <nav itemtype="http://schema.org/SiteNavigationElement" itemscope="itemscope" class="pr-nav-primary" aria-label="Elementor Menu">
+                                                                    <ul data-uk-scrollspy-nav="closest: li; scroll: false" class="pr-main-menu" id="menu-onepage-menu-1">
+                                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-434 uk-active"><a href="#pr_hero">Home</a></li>
+                                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43"><a href="#pr_services">Services</a></li>
+                                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44"><a href="#pr_works">Works</a></li>
+                                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-45"><a href="#pr_about">About</a></li>
+                                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46"><a href="#pr_client">Client</a></li>
+                                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-47"><a href="#pr_blog">Blog</a></li>
+                                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48"><a href="#pr_contact">Contact</a></li>
+                                                                    </ul>
+                                                                </nav>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-c07f98d elementor-column elementor-col-33 elementor-top-column" data-id="c07f98d" data-element_type="column">
+                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                <div class="elementor-widget-wrap">
+                                                    <div class="elementor-element elementor-element-4db038a elementor-widget elementor-widget-pr-search-box" data-id="4db038a" data-element_type="widget" data-widget_type="pr-search-box.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="pr-search-icon-wrapper">
+                                                                <div id="search-icon-4db038a" class="search-icon">
+                                                                    <i class="fa fa-search"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div id="search-overlay-4db038a" class="search-overlay">
+                                                                <span class="search-close"></span>
+                                                                <form method="get" class="fullscreen-searchform" action="http://gentium.pixerex.com/wp/">
+                                                                    <input class="search-box" name="s" placeholder="Search...">
+                                                                    <i class="fa fa-search fullscreen-search-icon"></i>
+                                                                </form>
+                                                            </div>
+
+                                                            <script type="text/javascript">
+
+                                                                jQuery(document).ready(function ($) {
+
+                                                                    $(document).ready(function () {
+                                                                        var search_icon = $("#search-icon-4db038a");
+                                                                        search_icon.on('click', function () {
+                                                                            $('#search-overlay-4db038a').addClass('open');
+                                                                        });
+
+                                                                        $('.search-close').on('click', function () {
+                                                                            $('#search-overlay-4db038a').removeClass('open');
+                                                                        });
+                                                                    });
+
+                                                                });
+                                                            </script>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uk-sticky-placeholder" style="height: 0px; margin: 0px;"></div>
+        </header>
+
+        <header id="mobile-header" class="uk-hidden@l uk-sticky" data-uk-sticky="top: 100vh; animation: uk-animation-slide-top; ">
+            <div class="page-mobile-header">
+                <div class="uk-container">
+                    <div class="inner">
+                        <div class="uk-width-1-1">
+                            <div class="header-wrap">
+                                <div class="branding">
+                                    <div class="mobile-logo">
+                                        <h1 class="site-title"><a href="http://gentium.pixerex.com/wp/" rel="home">Gentium</a></h1>
+                                    </div>
+                                </div>
+                                <div class="header-right">
+                                    <div class="toggle-icon" data-uk-toggle="target: #navbar-mobile">
+                                        <i></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- .row END -->
+                </div><!-- .container END -->
+            </div>
+        </header>
+
+        <div class="uk-sticky-placeholder" style="height: 0px; margin: 0px;" hidden=""></div>
+
+        <div class="pr__mobile__nav uk-offcanvas" id="navbar-mobile" data-uk-offcanvas="overlay: true; flip:true; mode:none;">
+            <div class="uk-offcanvas-bar">
+                <button class="uk-offcanvas-close uk-close uk-icon" type="button" data-uk-close="ratio: 2;"><svg width="28" height="28" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" data-svg="close-icon"><line fill="none" stroke="#000" stroke-width="1.1" x1="1" y1="1" x2="13" y2="13"></line><line fill="none" stroke="#000" stroke-width="1.1" x1="13" y1="1" x2="1" y2="13"></line></svg></button>
+                <nav class="menu" data-uk-scrollspy-nav="offset: 0; closest: li; scroll: false">
+                    <ul data-uk-scrollspy="target: > li; cls:uk-animation-slide-right; delay: 100; repeat: true;" class="ul-menu" id="menu-onepage-menu-2">
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-434" style="visibility: hidden;"><a href="#pr_hero">Home</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43" style="visibility: hidden;"><a href="#pr_services">Services</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44" style="visibility: hidden;"><a href="#pr_works">Works</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-45" style="visibility: hidden;"><a href="#pr_about">About</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46" style="visibility: hidden;"><a href="#pr_client">Client</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-47 uk-active" style="visibility: hidden;"><a href="#pr_blog">Blog</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48" style="visibility: hidden;"><a href="#pr_contact">Contact</a></li>
+                    </ul>
+                </nav>
+
+            </div><!-- Off Canvas Bar End -->
+        </div>
+
+
+        <div id="content" class="site-content">
+            <div id="primary" class="page-builder-template">
+                <div class="page-builder-row">
+
+                    <article id="post-23" class="post-23 page type-page status-publish hentry">
+                        <div class="entry-content">
+                            <div data-elementor-type="post" data-elementor-id="23" class="elementor elementor-23 elementor-bc-flex-widget" data-elementor-settings="[]">
+                                <div class="elementor-inner">
+                                    <div class="elementor-section-wrap">
+                                        @RenderBody()                                                                                                               
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article><!-- #post-## -->
+                </div>
+            </div>
+        </div>
+
+        @Html.Partial("Footer")
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <link rel="stylesheet" id="elementor-post-37-css" href="http://gentium.pixerex.com/wp/wp-content/uploads/elementor/css/post-37.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-post-104-css" href="http://gentium.pixerex.com/wp/wp-content/uploads/elementor/css/post-104.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-post-53-css" href="http://gentium.pixerex.com/wp/wp-content/uploads/elementor/css/post-53.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-post-314-css" href="http://gentium.pixerex.com/wp/wp-content/uploads/elementor/css/post-314.css" type="text/css" media="all">
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var wpcf7 = { "apiSettings": { "root": "http:\/\/gentium.pixerex.com\/wp\/wp-json\/contact-form-7\/v1", "namespace": "contact-form-7\/v1" } };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="http://gentium.pixerex.com/wp/wp-content/plugins/contact-form-7/includes/js/scripts.js"></script>
+    <script type="text/javascript" src="http://gentium.pixerex.com/wp/wp-content/themes/gentium-demo/assets/js/anime.min.js"></script>
+    <script type="text/javascript" src="http://gentium.pixerex.com/wp/wp-content/themes/gentium-demo/assets/js/jquery.easing.js"></script>
+    <script type="text/javascript" src="http://gentium.pixerex.com/wp/wp-content/plugins/pixerex-elements/assets/js/uikit.min.js"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var pixe_loadmore = { "ajaxurl": "http:\/\/gentium.pixerex.com\/wp\/wp-admin\/admin-ajax.php", "posts": "{\"error\":\"\",\"m\":\"\",\"p\":\"23\",\"post_parent\":\"\",\"subpost\":\"\",\"subpost_id\":\"\",\"attachment\":\"\",\"attachment_id\":0,\"name\":\"\",\"static\":\"\",\"pagename\":\"\",\"page_id\":\"23\",\"second\":\"\",\"minute\":\"\",\"hour\":\"\",\"day\":0,\"monthnum\":0,\"year\":0,\"w\":0,\"category_name\":\"\",\"tag\":\"\",\"cat\":\"\",\"tag_id\":\"\",\"author\":\"\",\"author_name\":\"\",\"feed\":\"\",\"tb\":\"\",\"paged\":0,\"meta_key\":\"\",\"meta_value\":\"\",\"preview\":\"\",\"s\":\"\",\"sentence\":\"\",\"title\":\"\",\"fields\":\"\",\"menu_order\":\"\",\"embed\":\"\",\"category__in\":[],\"category__not_in\":[],\"category__and\":[],\"post__in\":[],\"post__not_in\":[],\"post_name__in\":[],\"tag__in\":[],\"tag__not_in\":[],\"tag__and\":[],\"tag_slug__in\":[],\"tag_slug__and\":[],\"post_parent__in\":[],\"post_parent__not_in\":[],\"author__in\":[],\"author__not_in\":[],\"ignore_sticky_posts\":false,\"suppress_filters\":false,\"cache_results\":true,\"update_post_term_cache\":true,\"lazy_load_term_meta\":true,\"update_post_meta_cache\":true,\"post_type\":\"\",\"posts_per_page\":6,\"nopaging\":false,\"comments_per_page\":\"50\",\"no_found_rows\":false,\"order\":\"DESC\"}", "current_page": "1", "max_page": "0" };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="http://gentium.pixerex.com/wp/wp-content/themes/gentium-demo/assets/js/load-more.js"></script>
+    <script type="text/javascript" src="http://gentium.pixerex.com/wp/wp-content/themes/gentium-demo/assets/js/main-script.js"></script>
+    <script type="text/javascript" src="http://gentium.pixerex.com/wp/wp-includes/js/wp-embed.min.js"></script>
+    <script type="text/javascript" src="http://gentium.pixerex.com/wp/wp-content/plugins/pixerex-elements/assets/js/pr-main.js"></script>
+    <script type="text/javascript" src="http://gentium.pixerex.com/wp/wp-content/plugins/elementor/assets/js/frontend-modules.min.js"></script>
+    <script type="text/javascript" src="http://gentium.pixerex.com/wp/wp-includes/js/jquery/ui/position.min.js"></script>
+    <script type="text/javascript" src="http://gentium.pixerex.com/wp/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js"></script>
+    <script type="text/javascript" src="http://gentium.pixerex.com/wp/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js"></script>
+    <script type="text/javascript" src="http://gentium.pixerex.com/wp/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js"></script>
+    <script type="text/javascript">
+        var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 640, "lg": 960, "xl": 1440, "xxl": 1600 }, "version": "2.5.15", "urls": { "assets": "http:\/\/gentium.pixerex.com\/wp\/wp-content\/plugins\/elementor\/assets\/" }, "settings": { "page": [], "general": { "elementor_global_image_lightbox": "yes", "elementor_enable_lightbox_in_editor": "yes" } }, "post": { "id": 23, "title": "home page", "excerpt": "" } };
+    </script>
+    <script type="text/javascript" src="http://gentium.pixerex.com/wp/wp-content/plugins/elementor/assets/js/frontend.min.js"></script>
+    <span id="elementor-device-mode" class="elementor-screen-only"></span>
+    <!--Cached with Swift Performance Lite-->
+</body>
+</html>
